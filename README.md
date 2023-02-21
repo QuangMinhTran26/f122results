@@ -1,0 +1,1 @@
+Hello everyone, this is my first ever project using HTML and CSS. For this site i also use Bootstrap v4.1.3 as well as jQuerry and Popper.js. The site is inspired by "Museum Of Candy" from Colt Steele and the pictures i found on the subreddit r/f1porn. Please feel free to provide any feedback, i am more than happy to hear them.
