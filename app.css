@@ -1,0 +1,107 @@
+body {
+
+    background: #B9F3FC;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    color: #023e8a;
+}
+
+h2 {
+    color: #023e8a;
+    font-size: 1.6rem;
+    background: none;
+    border: 2px solid;
+    padding: 1em 0.5em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 20px;
+
+}
+
+h2:hover {
+    border-color: white;
+    color: rgb(221, 45, 45) !important;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.07em);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: #023e8a;
+}
+
+#link:hover {
+    border-color: white;
+    color: rgb(221, 45, 45) !important;
+    
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lead {
+    font-weight: 400;
+    font-size: 1.125rem;
+
+}
+
+.navbar.scrolled {
+    background: #85CDFD;
+    transition: 250ms;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#mainNavbar .nav-link {
+    color: white;
+
+}
+
+#mainNavbar .nav-link:hover {
+    color: #023e8a;
+    
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #023e8a;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup {
+    color: #023e8a;
+}
+
+#headingGroup #slash1 {
+    color: red;
+}
+
+#headingGroup #slash2 {
+    color: green;
+}
+
+#slash2ndLine {
+    color: white;
+}
+
+#headingGroup h1 {
+    font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
+}
