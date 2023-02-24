@@ -62,8 +62,11 @@ a {
 }
 
 #backtotop {
-    text-align: center;
+    display: flex;
+    color: #023e8a;
+    justify-content: center;
     border-radius: 2px;
+    
 }
 
 
@@ -94,7 +97,7 @@ a {
 #mainNavbar .navbar-brand:hover {
     color: rgb(255, 24, 1);
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #headingGroup {
