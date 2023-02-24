@@ -14,8 +14,8 @@
 
 
 <body>
-    <nav id="mainNavbar" class=" navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand">FORMULA ONE</a>
+    <nav id="mainNavbar" class=" navbar navbar-light navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand" id="top">FORMULA ONE</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,7 +28,7 @@
                     <a href="https://www.youtube.com/@Formula1/playlists" class="nav-link">VIDEOS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://i.imgur.com/mJEp6Ch.png" class="nav-link">ABOUT</a>
+                    <a href="#sitedescription" class="nav-link">ABOUT</a>
                 </li>
 
             </ul>
@@ -158,7 +158,7 @@
             <div class="col-md-6 text-center order-2 order-md-1 ">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 mb-5 mb-md-0">
-                        <h2> <a href="https://youtu.be/2HczJcxEmQQ" id="link"></a> SPANISH GRAND PRIX</h2>
+                        <h2> <a href="https://youtu.be/2HczJcxEmQQ" id="link">SPANISH GRAND PRIX</a> </h2>
                         <img src="flag/spainflag.png" alt="" class="d-lg-inline">
                         <p class="lead">Date: Sun, 22 Apr 2022, 15:00</p>
                         <p class="lead"> Track: Circuit de Barcelona-Catalunya</p>
@@ -486,7 +486,8 @@
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 mb-5 mb-md-0">
-                        <h2> FINAL DRIVER STANDINGS</h2>
+                        <h2> <a href="https://www.formula1.com/en/results.html/2022/drivers.html" id="link">FINAL DRIVER
+                                STANDINGS</a> </h2>
                         <p class="lead"> Champion: Max Verstappen - 454 Points</p>
                         <p class="lead"> 2nd Place: Charles Leclerc - 308 Points</p>
                         <p class="lead"> 3rd Place: Sergio Pérez - 275 Points</p>
@@ -502,7 +503,8 @@
             <div class="col-md-6 text-center order-2 order-md-1">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 mb-5 mb-md-0">
-                        <h2> CONSTRUCTOR STANDINGS</h2>
+                        <h2> <a href="https://www.formula1.com/en/results.html/2022/team.html" id="link">CONSTRUCTOR
+                                STANDINGS</a> </h2>
                         <p class="lead"> 1st Place: Red Bull Racing RBPT - 759 Points</p>
                         <p class="lead"> 2nd Place: Ferrari - 554 Points</p>
                         <p class="lead"> 3rd Place: Mercedes - 515 Points</p>
@@ -512,6 +514,35 @@
         </div>
 
     </section>
+    
+    <section>
+        <h3 id="sitedescription"> ABOUT THIS SITE</h3>
+        <p>
+            As an avid Formula One and Ferrari supporter, I put my knowledge of HTML, CSS, Bootstrap and Javascript to
+            good use and created this site.
+            For that reason, this website serves the purpose of showcasing results of every Formula One race in 2022.
+            The first sentence is legendary commentator David Croft's famous buzzwords before the start of each race.
+            The name of the Grand Prix as well as date, time, circut and three drivers finishing first, second, and
+            third can be found in each section.
+            In the end, the three drivers with the most amount of points scored and the three constructors finishing the
+            highest are also listed.
+        </p>
+        <p>
+            Features of this site:
+        <ul>
+            <li> Responsive website for different devices</li>
+            <li> Navigation bar includes clickbale buttons: Official Website leads to the official webiste of Formula 1,
+                Videos leads to the Youtube video library of the 2022 season, About leads to the site description
+            </li>
+            <li> There is special effect when hovering on each clickable headlines </li>
+            <li> The highlight of each race can be found on each track's name </li>
+        </ul>
+        </p>
+    </section>
+
+    <div id="backtotop">
+        <button> <a href="#" id="link">BACK TO TOP</a> </button>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
