@@ -28,17 +28,21 @@ h2:hover {
     text-decoration: none;
 }
 
-a {
+h3  {
+    color: #023e8a;
+    text-align: center;
+}
+
+p   {
+    color: #023e8a; 
+}
+
+ul {
     color: #023e8a;
 }
 
-#link:hover {
-    border-color: white;
-    color: rgb(221, 45, 45) !important;
-    
-    transform: translateY(-0.25em);
-    cursor: pointer;
-    text-decoration: none;
+a {
+    color: #023e8a;
 }
 
 .lead {
@@ -48,7 +52,7 @@ a {
 }
 
 .navbar.scrolled {
-    background: #85CDFD;
+    background: #fff;
     transition: 250ms;
 }
 
@@ -57,25 +61,38 @@ a {
     margin-bottom: 100px;
 }
 
+#backtotop {
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+#link:hover {
+    border-color: white;
+    color: rgb(221, 45, 45) !important;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    text-decoration: none;
+}
 
 #mainNavbar .nav-link {
-    color: white;
+    color: #023e8a;
 
 }
 
 #mainNavbar .nav-link:hover {
-    color: #023e8a;
-    
+    color: rgb(255, 24, 1);
+
 }
 
 #mainNavbar .navbar-brand {
-    color: white;
+    color: #023e8a;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
 #mainNavbar .navbar-brand:hover {
-    color: #023e8a;
+    color: rgb(255, 24, 1);
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -89,16 +106,17 @@ a {
 }
 
 #headingGroup #slash2 {
-    color: green;
+    color: red;
 }
 
 #slash2ndLine {
-    color: white;
+    color: green;
 }
 
 #headingGroup h1 {
     font-size: 3rem;
 }
+
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
