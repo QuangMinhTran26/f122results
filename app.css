@@ -50,7 +50,9 @@ a {
     font-size: 1.125rem;
 
 }
-
+.navbar {
+    background: #fff;
+}
 .navbar.scrolled {
     background: #fff;
     transition: 250ms;
