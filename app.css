@@ -2,6 +2,7 @@ body {
 
     background: #B9F3FC;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 
 p {
